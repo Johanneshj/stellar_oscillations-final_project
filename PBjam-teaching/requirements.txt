@@ -13,3 +13,4 @@ jaxlib
 emcee
 ipykernel
 ipympl
+basta
