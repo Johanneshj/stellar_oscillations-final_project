@@ -6,7 +6,12 @@ Step-by-step guide:
 
 **Step 2:** Enter the folder and create a Python virtual environment (version 3.12.0 should work). I am using pyenv so for me to command is "pyenv virtualenv 3.12.0 venv-final_project. This will create a Python virtual environment version 3.12.0 with then name venv-final_project.
 
-**Step 4:** Source your virtual environment; with pyenv you can simply write "pyenv local venv-final_project". Otherwise you locate your folder and type "source venv-final_project/bin/activate
+**Step 3:** Source your virtual environment: With pyenv, while being in the project folder, you can simply write "pyenv local venv-final_project". Otherwise you locate your folder and type "source venv-final_project/bin/activate".
 
-**Step 3:** Enter the PBjam-teaching folder and run "pip install -r requirements.txt" in your command line. This will install a
+**Step 4:** Enter the PBjam-teaching folder and run "pip install -r requirements.txt" in your command line. This will install all required Python packages in our venv.
 
+**Step 5:** Open the pbjam.ipynb notebook and follow it cell-by-cell. 
+
+**Step 6:** Enter the BASTA folder and type the following commands "mkdir -p ~/BASTA/grids" and "mkdir -p ~/BASTA/dust". 
+
+**Step 7:** We will now download our grid of models: This is neatly done with the following command "BASTAdownload --gridpath grids --no-dustmaps validation"
