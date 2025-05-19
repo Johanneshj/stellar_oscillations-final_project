@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<stars>
+	<star starid="9635649">
+		<Teff value="4864.034774" error_plus="40.55192700000043" error_minus="43.544425999999476" unit="K">
+			<remarks>Effective temperature</remarks>
+		</Teff>
+		<FeH value="0.023717690611324893" error_plus="0.044818877484937764" error_minus="0.04715987632310713" unit="dex">
+			<remarks>Iron abundance</remarks>
+		</FeH>
+		<logg value="3.223449758359657" error_plus="0.006384825341076095" error_minus="0.006191908503502042" unit="log10(cm/s2)">
+			<remarks>Surface gravity</remarks>
+		</logg>
+		<dnufit value="15.337322183705894" error_plus="0.43939775001806325" error_minus="0.3545805393505663" unit="microHz">
+			<remarks>Large frequency separation from linear fit to individual $\ell=0$ modes</remarks>
+		</dnufit>
+		<numax value="205.68183098241985" error_plus="2.909400695455844" error_minus="2.8062880023032903" unit="solar">
+			<remarks>Frequency of maximum oscillation power</remarks>
+		</numax>
+		<radPhot value="4.594163746498962" error_plus="0.2220075095372014" error_minus="0.2647380835303119" unit="solar">
+			<remarks>Photospheric radius</remarks>
+		</radPhot>
+		<massfin value="1.2847710507264594" error_plus="0.1330139284098335" error_minus="0.1439620099542509" unit="solar">
+			<remarks>Current mass</remarks>
+		</massfin>
+		<age value="4494.432859" error_plus="2405.4319460000006" error_minus="1321.9566179999997" unit="Myr">
+			<remarks>Current age in Myr</remarks>
+		</age>
+	</star>
+</stars>
+
