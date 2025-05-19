@@ -11,3 +11,5 @@ dynesty
 jax
 jaxlib
 emcee
+ipykernel
+ipympl

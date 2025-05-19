@@ -112,7 +112,7 @@ def define_input(define_io, define_fit, define_output, define_plots, define_intp
     #     (dnu). The one provided must match the one you add to fitting parameters in
     #     the next block. If present in the grid, "dnufit" is the most reliable one.
     #     The full list is available in constants.py
-    define_fit["fitparams"] = ("Teff", "FeH", "logg", "dnufit", "numax")
+    define_fit["fitparams"] = ("Teff", "FeH", "logg", "dnufit", "numax", "freqs")
 
     # ------------------------------------------------------------
     # BLOCK 2a: Fitting control, priors
@@ -261,12 +261,12 @@ def define_input(define_io, define_fit, define_output, define_plots, define_intp
     #     "correlations": False,
     #     "dnufrac": 0.15,
     # }
-    #define_fit["freqparams"] = {
-    #    "freqpath": "data/freqs",
-    #    "fcor": "BG14",
-    #    "correlations": False,
-    #    "dnufrac": 0.15
-    #}
+    define_fit["freqparams"] = {
+        "freqpath": "data/freqs",
+        "fcor": "BG14",
+        "correlations": False,
+        "dnufrac": 0.15
+    }
 
     # An example of manually forcing the weights with "N", and an example of using "dof"
     # define_fit["freqparams"] = {
@@ -383,7 +383,7 @@ def define_input(define_io, define_fit, define_output, define_plots, define_intp
     # BASTA can produce a Kiel diagram (Teff vs logg) with the observations and the
     # model points from the grid. The latter will be color coded based on the fitting
     # parameters and their uncertainties/constraints.
-    define_plots["kielplots"] = True
+    define_plots["kielplots"] = False
 
     # When fitting frequencies or frequency ratios, BASTA can generate echelle diagrams
     # and plots of the surface independent quantities (ratios, epsilon differences).
